@@ -13,7 +13,7 @@ const Header = () => {
   const onlineStatus = useOnlineStatus();
 
   const { loggedInUser } = useContext(UserContext);
-  console.log(loggedInUser);
+  // console.log(loggedInUser);
 
   // useEffect(()=> {
   //   console.log("use Effect called");
@@ -25,7 +25,7 @@ const Header = () => {
   // selector this useSelector is used to access the redux store state
   // we are subscribing to the store using useSelector.
   const cartItems = useSelector((store) => store.cart.items);
-  console.log(cartItems);
+  // console.log(cartItems);
 
   return (
     <div className="flex justify-between bg-pink-100 shadow-lg p-4 m-2 rounded-lg">

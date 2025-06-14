@@ -248,3 +248,6 @@ Parent Component Did Mounted
 - Install @babel/preset-react - to work jsx in test cases
 - Include @babel/preset-react inside babel config
 - Install @testing-library/jest-dom - for working of toBeInTheDocument()
+
+- We cannot use redux inside jsdom for that we have to pass <Provider></Provider>
+- We also cannot use router therefor we have to pass the router we are using <BrowserRouter></BrowserRouter> 

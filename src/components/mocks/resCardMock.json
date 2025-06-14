@@ -1,0 +1,101 @@
+{
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    "info": {
+        "id": "260585",
+        "name": "The Good Bowl",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/15/a92679b0-ba31-4fbb-b4c9-10354e712979_260585.jpg",
+        "locality": "Primus Business Park",
+        "areaName": "Wagle Estate Thane",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+            "Biryani",
+            "Pastas",
+            "Punjabi",
+            "Desserts",
+            "Beverages"
+        ],
+        "avgRating": 4.4,
+        "parentId": "7918",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "1.0K+",
+        "sla": {
+            "deliveryTime": 41,
+            "lastMileTravel": 1.9,
+            "serviceability": "SERVICEABLE",
+            "slaString": "40-45 mins",
+            "lastMileTravelString": "1.9 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2025-06-14 23:59:00",
+            "opened": true
+        },
+        "badges": {
+            "textExtendedBadges": [
+                {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                }
+            ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {
+                    "badgeObject": [
+                        {
+                            "attributes": {
+                                "description": "",
+                                "fontColor": "#7E808C",
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "options available"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "₹165 OFF",
+            "subHeader": "ABOVE ₹499",
+            "discountTag": "FLAT DEAL",
+            "headerTypeV2": 12
+        },
+        "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+            "aggregatedRating": {
+                "rating": "--"
+            }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+        "context": "seo-data-8f22a7d3-8e30-41ad-afb5-9c541cf79208"
+    },
+    "cta": {
+        "link": "https://www.swiggy.com/city/mumbai/the-good-bowl-primus-business-park-wagle-estate-thane-rest260585",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}
