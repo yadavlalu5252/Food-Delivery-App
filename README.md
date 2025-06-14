@@ -206,3 +206,45 @@ Parent Component Did Mounted
 - We use two Redux Library from redux team
 
 - Redux store is big js object kept in global central space
+
+
+# Testing in React
+
+## Unit Testing
+- Testing single component of the project
+- Examplee= Testing a button
+
+## Integration Testing
+- Testing multiple component of the project at a time.
+- Example- Search cases
+
+## End to End Testing (E2E)
+- Combination of From login to any event occur in a testing is e2e testing.
+
+## React Testing Library
+``` npm install --save-dev @testing-library/react @testing-library/dom ```
+- React Testing Library uses Jest behind the scene
+``` npm i jest ```
+- Jest is using babel behind the scene
+```npm install --save-dev babel-jest @babel/core @babel/preset-env``` 
+- Configure babel in babel.config.js file
+
+- Parser behind the scene uses bable and we also have install babel configuration for testing it will conflict with the parser babel(babel.config.js).
+- Therefor we have to change the configration of parser babel to use testing.
+
+- We have to disable the parcel config for that create .parcelrc file
+-To disable Babel transpilation in Parcel, override the default Parcel config for JavaScript to exclude @parcel/transformer-babel.
+
+- For testing npm command is
+``` npm run test ```
+- For jest configuration
+``` npx create-jest ``` and use jsdom because for testing we required a run time environment that is provided by jsdom
+- install jsdom separetely
+``` npm install --save-dev jest-environment-jsdom ```
+
+- For testing create folder __test__ all the testing file comes under this folder
+- __test__ in that __ means dunder.
+
+- Install @babel/preset-react - to work jsx in test cases
+- Include @babel/preset-react inside babel config
+- Install @testing-library/jest-dom - for working of toBeInTheDocument()
