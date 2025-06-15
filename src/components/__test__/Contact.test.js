@@ -5,6 +5,23 @@ import "@testing-library/jest-dom";
 
 // Describe means simply group similar type of test cases in a single group
 describe("Contact us page Test cases", ()=> {
+
+    /* beforeAll(()=> {
+        console.log("before all");
+    });
+
+    beforeEach(()=> {
+        console.log("Before each");
+    });
+
+    afterAll(()=> {
+        console.log("Ater all");
+    });
+
+    afterEach(()=>{
+        console.log("After Each");
+    }) */
+
     test("Should load Contact us component", ()=> {
     render(<Contact />);
     const heading = screen.getByRole("heading");

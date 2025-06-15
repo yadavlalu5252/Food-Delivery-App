@@ -35,6 +35,7 @@ const Body = () => {
         <div className="search m-2 p-4 flex">
           <input
             type="text"
+            data-testid="searchInput"
             className="border-solid border-2 border-black square"
             value={searchText}
             onChange={(e) => {
@@ -42,7 +43,7 @@ const Body = () => {
             }}
           />
           <button
-            className="mx-4 bg-pink-400 px-2.5 rounded-lg text-blue-500"
+            className="mx-4 bg-gray-300 px-2.5 rounded-lg text-black-500"
             onClick={() => {
               const filteredRestaurants = listOfRestaurants.filter((res) =>
                 res.info.name
@@ -58,7 +59,7 @@ const Body = () => {
         </div>
         <div>
           <button
-            className="filter-btn mx-2 bg-pink-400 px-2.5 rounded-lg text-blue-500"
+            className="filter-btn mx-2 bg-gray-300 px-2.5 rounded-lg text-black-500"
             onClick={() => {
               const filteredList = listOfRestaurants.filter(
                 (res) => res.info.avgRating > 4.5
@@ -69,9 +70,9 @@ const Body = () => {
             Top Rated Restaurants
           </button>
         </div>
-        <div className="mx-2 bg-black text-white">
-          <label>UserName: </label>
-          <input className="border border-black p-2"
+        <div className="mx-2 bg-gray-400 text-black rounded-md">
+          <label>UserName </label>
+          <input className="border border-black p-0"
           value={loggedInUser} 
           onChange={(e) => setUsername(e.target.value)}/>
 
